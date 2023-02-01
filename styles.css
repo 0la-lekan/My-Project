@@ -1,28 +1,31 @@
 body {
-
+    width: 1024px;
+    height: 768px;
 }
 .part-1, .header-1, .header-2, .header-2-content, .header-2-image {
     display: flex;
-    height: 192px;
+    
 }
 .part-1 {
     flex-direction: column;
+    height: 192px;
+    width: 1024px;
 }
 .separate {
     margin-left: auto;
 }
 .header-1 {
-    padding: 10px;
-    padding-right: 0;
+    padding: 10px 0px;
     gap: 20px;
 }
 .header-2-content {
     flex-direction: column;
-    flex-basis: 50%;
+    flex-basis: auto;
+    justify-content: space-between;
 }
 button {
     width: fit-content;
-    padding: 8px 20px;
+    padding: 8px 24px;
     border-radius: 5px;
     background-color: #3882f6;
     border: #3882f6;
@@ -33,4 +36,8 @@ button {
 p {
     display: flex;
     flex-wrap: wrap
+} 
+
+img {
+    width: 512px;
 }
