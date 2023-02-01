@@ -3,7 +3,16 @@ body {
 }
 .part-1, .header-1, .header-2, .header-2-content, .header-2-image {
     display: flex;
+    height: 192px;
 }
 .part-1 {
     flex-direction: column;
+}
+.separate {
+    margin-left: auto;
+}
+.header-1 {
+    padding: 10px;
+    padding-right: 0;
+    gap: 20px;
 }
