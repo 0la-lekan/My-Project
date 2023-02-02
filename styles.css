@@ -1,7 +1,7 @@
 body {
     margin: 0;
 }
-.part-1, .header-1, .header-2, .header-2-content, .header-2-image {
+.part-1, .header-1, .header-2, .header-2-content, .header-2-image, .logo-box {
     display: flex;
     
 }
@@ -9,6 +9,10 @@ body {
     flex-direction: column;
     background-color: #1F2937;
     padding: 0 200px;
+}
+.logo-box {
+    align-items: center;
+    background-color: ;
 }
 .separate {
     margin-left: auto;
@@ -32,7 +36,7 @@ body {
     margin-left: 20px;
 }
 .logo-word-design {
-    margin: -10px;
+    margin: 0 10px;
 }
 .hero-main-text {
     font-size: 48px;
