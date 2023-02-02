@@ -22,9 +22,17 @@ body {
 .text {
     margin: 0;
 }
-.header-logo-text {
+.header-logo-text-1, .header-logo-text-2 {
     font-size: 24px;
-    color: #f9faf8;
+    color: #65bfe2;
+    margin: 0;
+}
+.header-logo-text-2 {
+    color: #ce6a83;
+    margin-left: 20px;
+}
+.logo-word-design {
+    margin: -10px;
 }
 .hero-main-text {
     font-size: 48px;
@@ -32,10 +40,14 @@ body {
     color: #f9faf8;
     margin: 0;
 }
+a {
+    text-decoration: none;
+}
 .header-1 {
     padding: 0px;
     gap: 20px;
-    
+    align-items: center;
+    padding: 10px 0;
 }
 .header-2 {
     margin: 100px 0;
@@ -46,6 +58,7 @@ body {
     justify-content: center;
     flex-basis: 50%;
     gap: 10px;
+    margin-right: 10px;
 }
 button {
     width: fit-content;
@@ -56,6 +69,7 @@ button {
     color: white;
     font-size: larger;
     font-weight: bold;
+    margin-top: 20px;
 }
 p {
     display: flex;
@@ -67,4 +81,11 @@ p {
 img {
     width: 100%;
     height: auto;
+    border-radius: 10px;
+    
+}
+.logo {
+    width: 85px;
+    height: 75px;
+    border-radius: 50px;
 }
