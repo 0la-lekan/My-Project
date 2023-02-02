@@ -8,8 +8,7 @@ body {
 .part-1 {
     flex-direction: column;
     background-color: #1F2937;
-    padding: 0 100px;
-    /* align-items: space-between; */
+    padding: 0 200px;
 }
 .separate {
     margin-left: auto;
@@ -19,6 +18,9 @@ body {
 .hero-sec-text, .text {
     font-size: 18px;
     color: #e5e7eb;
+}
+.text {
+    margin: 0;
 }
 .header-logo-text {
     font-size: 24px;
@@ -31,7 +33,7 @@ body {
     margin: 0;
 }
 .header-1 {
-    padding: 10px 0px;
+    padding: 0px;
     gap: 20px;
     
 }
@@ -43,7 +45,7 @@ body {
     flex-direction: column;
     justify-content: center;
     flex-basis: 50%;
-    gap: 24px;
+    gap: 10px;
 }
 button {
     width: fit-content;
@@ -61,7 +63,6 @@ p {
 } 
 .header-2-image {
     flex-basis: 50%;
-    align-items: 
 }
 img {
     width: 100%;
