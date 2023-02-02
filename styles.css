@@ -1,5 +1,5 @@
 body {
-    
+    margin: 0;
 }
 .part-1, .header-1, .header-2, .header-2-content, .header-2-image {
     display: flex;
@@ -7,18 +7,39 @@ body {
 }
 .part-1 {
     flex-direction: column;
+    background-color: #1F2937;
+    padding: 0 100px;
 }
 .separate {
     margin-left: auto;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.hero-sec-text, .text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.header-logo-text {
+    font-size: 24px;
+    color: #f9faf8;
+}
+.hero-main-text {
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+    margin: 0;
 }
 .header-1 {
     padding: 10px 0px;
     gap: 20px;
 }
+.header-2 {
+    margin: 100px 0;
+}
 .header-2-content {
     flex-direction: column;
-    flex-basis: auto;
-    justify-content: space-between;
+    justify-content: center;
+    flex-basis: content;
 }
 button {
     width: fit-content;
@@ -36,5 +57,6 @@ p {
 } 
 
 img {
-    width: 512px;
+    width: 639px;
+    height: 156px;
 }
