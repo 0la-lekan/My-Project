@@ -9,6 +9,7 @@ body {
     flex-direction: column;
     background-color: #1F2937;
     padding: 0 100px;
+    /* align-items: space-between; */
 }
 .separate {
     margin-left: auto;
@@ -32,14 +33,17 @@ body {
 .header-1 {
     padding: 10px 0px;
     gap: 20px;
+    
 }
 .header-2 {
     margin: 100px 0;
+    justify-content: space-between;
 }
 .header-2-content {
     flex-direction: column;
     justify-content: center;
-    flex-basis: content;
+    flex-basis: 50%;
+    gap: 24px;
 }
 button {
     width: fit-content;
@@ -55,8 +59,11 @@ p {
     display: flex;
     flex-wrap: wrap
 } 
-
+.header-2-image {
+    flex-basis: 50%;
+    align-items: 
+}
 img {
-    width: 639px;
-    height: 156px;
+    width: 100%;
+    height: auto;
 }
