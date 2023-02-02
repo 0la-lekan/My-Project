@@ -1,7 +1,8 @@
 body {
     margin: 0;
+    font-family: 'roboto';
 }
-.part-1, .header-1, .header-2, .header-2-content, .header-2-image, .logo-box {
+.part-1, .header-1, .header-2, .header-2-content, .header-2-image, .logo-box, .box-all {
     display: flex;
     
 }
@@ -12,18 +13,17 @@ body {
 }
 .logo-box {
     align-items: center;
-    background-color: ;
 }
 .separate {
     margin-left: auto;
     font-size: 18px;
     color: #e5e7eb;
 }
-.hero-sec-text, .text {
+.hero-sec-text, .text-part-1 {
     font-size: 18px;
     color: #e5e7eb;
 }
-.text {
+.text-part-1 {
     margin: 0;
 }
 .header-logo-text-1, .header-logo-text-2 {
@@ -75,8 +75,7 @@ button {
     margin-top: 20px;
 }
 p {
-    display: flex;
-    flex-wrap: wrap
+    
 } 
 .header-2-image {
     flex-basis: 50%;
@@ -91,4 +90,10 @@ img {
     width: 85px;
     height: 75px;
     border-radius: 50px;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    border: solid #3882f6;
 }
