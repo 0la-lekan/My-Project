@@ -2,7 +2,7 @@ body {
     margin: 0;
     font-family: 'roboto';
 }
-.part-1, .header-1, .header-2, .header-2-content, .header-2-image, .logo-box, .box-all {
+.part-1, .header-1, .header-2, .header-2-content, .header-2-image, .logo-box, .box-all, .all-box, .part-2 {
     display: flex;
     
 }
@@ -74,9 +74,6 @@ button {
     font-weight: bold;
     margin-top: 20px;
 }
-p {
-    
-} 
 .header-2-image {
     flex-basis: 50%;
 }
@@ -92,8 +89,27 @@ img {
     border-radius: 50px;
 }
 
+.part-2 {
+    padding: 0 300px;
+    flex-direction: column;
+    align-items: center;
+}
+.text-part-2 {
+    text-align: center;    
+    max-width: 10;
+} 
 .box {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     border: solid #3882f6;
+    border-radius: 10px;
+}
+.all-box {
+    flex-direction: column;
+    align-items: center;
+    
+}
+.box-all {
+    gap: 10px;
+    justify-content: space-between;
 }
