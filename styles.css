@@ -2,7 +2,7 @@ body {
     margin: 0;
     font-family: 'roboto';
 }
-.part-1, .header-1, .header-2, .header-2-content, .header-2-image, .logo-box, .box-all, .all-box, .part-2, .box{
+.part-1, .header-1, .header-2, .header-2-content, .header-2-image, .logo-box, .box-all, .all-box, .part-2, .box, .box-4, .part-4, .part-4-text{
     display: flex;
     
 }
@@ -63,10 +63,10 @@ a {
     gap: 10px;
     margin-right: 10px;
 }
-button {
+.button-1, .button-2 {
     width: fit-content;
     padding: 8px 24px;
-    border-radius: 5px;
+    border-radius: 10px;
     background-color: #3882f6;
     border: #3882f6;
     color: white;
@@ -133,7 +133,6 @@ button {
 .part-3 {
     background-color: #e5e7eb;
     padding: 100px 300px;
-    text-align: ;
 }
 .quote, .quote-owner {
     font-size: 36px;
@@ -148,4 +147,35 @@ button {
 }
 .quote {
     text-align: justify;
+}
+
+.part-4 {
+    padding: 100px 200px;
+    justify-content: center;
+    align-items: center;
+
+}
+.box-4 {
+    width: 100%;
+    background-color: #3882f6;
+    padding: 50px 100px; 
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+.button-2 {
+    border: #e5e7eb solid 3px;
+    margin: 0;
+}
+.part-4-text {
+    font-size: 20px;
+    color: #e5e7eb;
+    flex-direction: column;
+    gap: 5px;
+}
+.text-4a, .text-4b {
+    margin: 0;
+}
+.text-4a {
+    font-weight: bold;
 }
