@@ -129,3 +129,23 @@ button {
     height: auto;
     border-radius: 8px;
 }
+
+.part-3 {
+    background-color: #e5e7eb;
+    padding: 100px 300px;
+    text-align: ;
+}
+.quote, .quote-owner {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1f2937;
+    margin: 0;
+}
+.quote-owner {
+    text-align: right;
+    font-weight: bold;
+}
+.quote {
+    text-align: justify;
+}
