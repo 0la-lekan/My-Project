@@ -179,3 +179,10 @@ a {
 .text-4a {
     font-weight: bold;
 }
+.copyright {
+    background-color: #1F2937;
+    color: #e5e7eb;
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+}
