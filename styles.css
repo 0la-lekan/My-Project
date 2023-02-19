@@ -81,7 +81,7 @@ a {
     width: 100%;
     height: auto;
     border-radius: 10px;
-    min-width: 450px;
+    /* min-width: 450px; */
     max-height: 460px;
     
 }
